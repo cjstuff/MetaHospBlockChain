@@ -9,10 +9,10 @@ var Web3 = require('web3');
 var MyContractJSON = require(path.join(__dirname,'build/contracts/MedicalChain.json'));
 
 // E S T A B L I S H     C O N N E C T I O N     W I T H     L O C A L     G E T H     P R I V A T E     C H A I N
-web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7545"));
 
 // G E T     C O N T R A C T     A D D R E S S ,   F R O M     N E T W O R K     I D     4 0 0 2  (N/W ID OF PRIVATE CHAIN)
-contractAddress = MyContractJSON.networks['4002'].address;
+contractAddress = MyContractJSON.networks['5177'].address;
 
 // C O N T R A C T     A D D R E S S
 console.log("\nC O N T R A C T     A D D R E S S : "+contractAddress+"\n");

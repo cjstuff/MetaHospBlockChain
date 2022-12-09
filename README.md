@@ -1,15 +1,13 @@
-# Medic@Chain
+# MetaHospBlockChain
 
 ### A blockchain-based Medical Records Management System
 
-### Group no-11
 Members:
-1. Aman Saxena(2021H1030120H)
-2. Chirag Jain(2021H1030072H)
-3. Manas Srivastava(2021H1030078H)
-4. Sahitya Ratan(2021H1030100H)
+1. Chirag Jain(2021H1030072H)
+2. Aman Saxena(2021H1030120H)
+3. Pranjal Gupta(2021H1030102H)
+4. Ashay Netke(2021H1030085H)
 
-Folder: BITSF452_A3_11.zip
 > Module: 
 * app -> app.js
 
@@ -25,7 +23,7 @@ Today, doctors & health professionals are limited in the level of care they can 
 
 **Step 1:** Download the repostory using the command:  
 ```
- Git Clone "https://gitlab.com/ced_b3_projects/ced-b3-g10.git"
+ Git Clone "https://github.com/cjstuff/MetaHospBlockChain"
  ```
 **Step 2:** Install the dependecies using the command: 
 ```
